@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container .head {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1000000;
+  background-color: black;
+}
+
+.container .head img {
+  width: 8%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 400px;
+}
+
+.container .head .extra {
+  color: white;
+  padding-left: 390px;
+}
+
+.container .head .extra b {
+  margin-right: 10px;
+}
+
+.container .head .right {
+  padding-right: 500px;
+}
+
+.container .head .right a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.banner .background {
+  width: 100%;
+  height: 680px;
+  object-fit: cover;
+  background: linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+}
+
+.liahhj {
+  position: absolute;
+  padding-right: 800px;
+  padding-bottom: 384px;
+  right: 0px;
+  left: 0px;
+  height: 495px;
+  bottom: -133px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.banner .box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-20%, -80%);
+  z-index: 1000;
+}
+
+.banner .box .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner .box .heading h1 {
+  font-size: 4em;
+  color: #fff;
+  width: 80%;
+  font-weight: 900;
+}
+
+.banner .box .heading .buttonf {
+  margin-top: 10px;
+}
+
+.banner .box .heading button {
+  padding: 15px;
+  border-radius: 60px;
+  border-color: transparent;
+  font-size: 15px;
+}
+
+.banner .box .heading .buttonf h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.banner .box .heading .buttonf a {
+  text-decoration: none;
+  color: black;
+}
+
+.card1 .card1head h1 {
+  font-size: 2.5em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 50px;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+
+.allclass {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.card1 li {
+  width: 10%;
+  padding-left: 230px;
+  list-style: none;
+}
+
+.class1 .class1icon img {
+  display: inline-block;
+  background-position: center top;
+  margin-right: 20px;
+  width: 142px;
+  height: 142px;
+}
+
+.class1 .class1info {
+  display: inline-block;
+  width: 100%;
+  margin: 16px 0px;
+}
+
+.class1 .class1info h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 21px;
+  padding: 0px;
+  line-height: 1.3em;
+}
+
+.class1 .class1info p {
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 0px;
+}
+
+.class2 .class2icon img {
+  display: inline-block;
+  background-position: center top;
+  margin-right: 20px;
+  width: 142px;
+  height: 142px;
+}
+
+.class2 .class2info {
+  display: inline-block;
+  width: 100%;
+  margin: 16px 0px;
+}
+
+.class2 .class2info h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 21px;
+  padding: 0px;
+  line-height: 1.3em;
+}
+
+.class2 .class2info p {
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 0px;
+}
+
+.class3 .class3icon img {
+  display: inline-block;
+  background-position: center top;
+  margin-right: 20px;
+  width: 142px;
+  height: 142px;
+}
+
+.class3 .class3info {
+  display: inline-block;
+  width: 100%;
+  margin: 16px 0px;
+}
+
+.class3 .class3info h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 21px;
+  padding: 0px;
+  line-height: 1.3em;
+}
+
+.class3 .class3info p {
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 0px;
+}
+
+.class4 .class4icon img {
+  display: inline-block;
+  background-position: center top;
+  margin-right: 20px;
+  width: 142px;
+  height: 142px;
+}
+
+.class4 .class4info {
+  display: inline-block;
+  width: 100%;
+  margin: 16px 0px;
+}
+
+.class4 .class4info h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 21px;
+  padding: 0px;
+  line-height: 1.3em;
+}
+
+.class4 .class4info p {
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 0px;
+}
+
+/* section card2 starts from here */
+
+.card2 {
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+.credit {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card2head1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  padding: 70px 15px 0px;
+}
+
+.card2head2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  padding: 0px 15px 80px;
+}
+
+/* section card3 starts from here */
+
+.card3 .card3info {
+  font-size: 1.5em;
+  align-items: center;
+  justify-content: center;
+  margin-left: 820px;
+  padding: 20px 0px;
+}
+
+/* section card4 starts from here */
+
+.card4 {
+  overflow: auto;
+  background: var(--background-base, inherit);
+}
+
+.card4 .card4article {
+  background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px /
+      100% 1114px no-repeat,
+    linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166))
+      rgb(108, 14, 224);
+  background-repeat: no-repeat;
+}
+
+.card4 .card4article {
+  padding: 130px 0px;
+}
+
+.card4 .card4article .ready {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.card4 .card4article .ready h2 {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: white;
+  font-size: 70px;
+  padding: 0px 100px 32px;
+}
+
+.card4 .card4article .ready .lastbutton button{
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+  border: transparent;
+}
+
+.card4 .card4article .ready .lastbutton h3 {
+  color: black;
+  padding: 20px 30px;
+}
+
+.card4 .card4article .ready .lastbutton a{
+  text-decoration: none;
+}
